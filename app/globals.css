@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+::selection {
+    color: #00e1ff;
+    background: rgba(59, 59, 59, 0.5);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #00e1ff;
+    background: rgba(59, 59, 59, 0.5);
+}
+
